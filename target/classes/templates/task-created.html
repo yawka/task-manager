@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Template</title>
+</head>
+<body>
+<h1>Создана задача по проекту <span th:utext="${projectName}"></span></h1>
+<p>Название: <span th:utext="${taskName}"></span></p>
+<p>Описание: <span th:utext="${description}"></span></p>
+<p>Создатель: <span th:utext="${creator}"></span></p>
+<p>Дата начала: <span th:utext="${startDate}"></span></p>
+</body>
+</html>
